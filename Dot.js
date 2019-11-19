@@ -60,7 +60,7 @@ class Dot{
     }
     //print(this.acc);
     this.vel.add(this.acc);
-    this.vel.limit(5);
+    this.vel.limit(15);
     this.pos.add(this.vel);
   }
   
